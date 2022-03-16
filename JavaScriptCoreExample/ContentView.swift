@@ -10,6 +10,7 @@ import SwiftUI
 
 struct OrderView: View {
     var dataSource:DataSource
+    var hovnoSource:HovnoSource
     
     var body: some View {
         VStack(alignment:.leading) {
@@ -29,9 +30,16 @@ struct OrderView: View {
 
 struct ContentView: View {
     let dataSource = DataSource()
+    let hovnoSource = HovnoSource()
     @State var showOrder = false
     
     var body: some View {
+        Button(action: {
+            let result = hovnoSource.getHovno("hovno")
+            print(result)
+        }) {
+            Text("Co je v konzoli??")
+        }
         NavigationView {
             List(dataSource.products, id:\.name) {product in
                 HStack {
@@ -50,7 +58,7 @@ struct ContentView: View {
             })
         }
         .sheet(isPresented: $showOrder) {
-            OrderView(dataSource:self.dataSource)
+            OrderView(dataSource:self.dataSource, hovnoSource: self.hovnoSource)
         }
     }
 }

@@ -34,5 +34,3 @@ function getTotalPriceAndDiscountOfOrder(order) {
 function getProduct(name, price) {
     return ProductJS.createProductWithNamePriceQuantity(name, price, 0);
 }
-
-
