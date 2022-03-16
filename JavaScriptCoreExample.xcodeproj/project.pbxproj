@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09CC7D2C27E22CE000304992 /* HomeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CC7D2B27E22CE000304992 /* HomeSwiftUIView.swift */; };
 		09F3FE7B27E1E744008B809E /* myCustomJavascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 09F3FE7A27E1E744008B809E /* myCustomJavascript.js */; };
 		09F3FE7F27E1E7FC008B809E /* MyCustomJSSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F3FE7E27E1E7FC008B809E /* MyCustomJSSource.swift */; };
 		251BBD022382B2050041738F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251BBD012382B2050041738F /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09CC7D2B27E22CE000304992 /* HomeSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSwiftUIView.swift; sourceTree = "<group>"; };
 		09F3FE7A27E1E744008B809E /* myCustomJavascript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = myCustomJavascript.js; sourceTree = "<group>"; };
 		09F3FE7E27E1E7FC008B809E /* MyCustomJSSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomJSSource.swift; sourceTree = "<group>"; };
 		251BBCFE2382B2050041738F /* JavaScriptCoreExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptCoreExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 				251BBD172382B4B70041738F /* DataSource.swift */,
 				09F3FE7E27E1E7FC008B809E /* MyCustomJSSource.swift */,
 				25B4D5DC2384162400E915D1 /* Entities.swift */,
+				09CC7D2B27E22CE000304992 /* HomeSwiftUIView.swift */,
 				251BBD192382D4210041738F /* JSCommunicationHandler.swift */,
 				251BBD072382B2050041738F /* Assets.xcassets */,
 				251BBD0C2382B2050041738F /* LaunchScreen.storyboard */,
@@ -177,6 +180,7 @@
 				09F3FE7F27E1E7FC008B809E /* MyCustomJSSource.swift in Sources */,
 				251BBD182382B4B70041738F /* DataSource.swift in Sources */,
 				251BBD062382B2050041738F /* ContentView.swift in Sources */,
+				09CC7D2C27E22CE000304992 /* HomeSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
