@@ -10,7 +10,7 @@ import SwiftUI
 
 struct OrderView: View {
     var dataSource:DataSource
-    var hovnoSource:HovnoSource
+    var myCustomJsSource:MyCustomJSSource
     
     var body: some View {
         VStack(alignment:.leading) {
@@ -30,15 +30,15 @@ struct OrderView: View {
 
 struct ContentView: View {
     let dataSource = DataSource()
-    let hovnoSource = HovnoSource()
+    let myCustomJsSource = MyCustomJSSource()
     @State var showOrder = false
     
     var body: some View {
         Button(action: {
-            let result = hovnoSource.getHovno("hovno")
+            let result = myCustomJsSource.getStringFromJs("message")
             print(result)
         }) {
-            Text("Co je v konzoli??")
+            Text("Wut is in console??")
         }
         NavigationView {
             List(dataSource.products, id:\.name) {product in
@@ -58,7 +58,7 @@ struct ContentView: View {
             })
         }
         .sheet(isPresented: $showOrder) {
-            OrderView(dataSource:self.dataSource, hovnoSource: self.hovnoSource)
+            OrderView(dataSource:self.dataSource, myCustomJsSource: self.myCustomJsSource)
         }
     }
 }

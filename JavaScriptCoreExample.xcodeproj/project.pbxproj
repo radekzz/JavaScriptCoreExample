@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09F3FE7B27E1E744008B809E /* hovno.js in Resources */ = {isa = PBXBuildFile; fileRef = 09F3FE7A27E1E744008B809E /* hovno.js */; };
-		09F3FE7F27E1E7FC008B809E /* HovnoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F3FE7E27E1E7FC008B809E /* HovnoSource.swift */; };
+		09F3FE7B27E1E744008B809E /* myCustomJavascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 09F3FE7A27E1E744008B809E /* myCustomJavascript.js */; };
+		09F3FE7F27E1E7FC008B809E /* MyCustomJSSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F3FE7E27E1E7FC008B809E /* MyCustomJSSource.swift */; };
 		251BBD022382B2050041738F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251BBD012382B2050041738F /* AppDelegate.swift */; };
 		251BBD042382B2050041738F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251BBD032382B2050041738F /* SceneDelegate.swift */; };
 		251BBD062382B2050041738F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251BBD052382B2050041738F /* ContentView.swift */; };
@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09F3FE7A27E1E744008B809E /* hovno.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = hovno.js; sourceTree = "<group>"; };
-		09F3FE7E27E1E7FC008B809E /* HovnoSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HovnoSource.swift; sourceTree = "<group>"; };
+		09F3FE7A27E1E744008B809E /* myCustomJavascript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = myCustomJavascript.js; sourceTree = "<group>"; };
+		09F3FE7E27E1E7FC008B809E /* MyCustomJSSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomJSSource.swift; sourceTree = "<group>"; };
 		251BBCFE2382B2050041738F /* JavaScriptCoreExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptCoreExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		251BBD012382B2050041738F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		251BBD032382B2050041738F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				251BBD1B2383E9290041738F /* order.js */,
-				09F3FE7A27E1E744008B809E /* hovno.js */,
+				09F3FE7A27E1E744008B809E /* myCustomJavascript.js */,
 				251BBD152382B2FF0041738F /* products.json */,
 				251BBD002382B2050041738F /* JavaScriptCoreExample */,
 				251BBCFF2382B2050041738F /* Products */,
@@ -77,7 +77,7 @@
 				251BBD032382B2050041738F /* SceneDelegate.swift */,
 				251BBD052382B2050041738F /* ContentView.swift */,
 				251BBD172382B4B70041738F /* DataSource.swift */,
-				09F3FE7E27E1E7FC008B809E /* HovnoSource.swift */,
+				09F3FE7E27E1E7FC008B809E /* MyCustomJSSource.swift */,
 				25B4D5DC2384162400E915D1 /* Entities.swift */,
 				251BBD192382D4210041738F /* JSCommunicationHandler.swift */,
 				251BBD072382B2050041738F /* Assets.xcassets */,
@@ -157,7 +157,7 @@
 				251BBD0E2382B2050041738F /* LaunchScreen.storyboard in Resources */,
 				251BBD162382B2FF0041738F /* products.json in Resources */,
 				251BBD0B2382B2050041738F /* Preview Assets.xcassets in Resources */,
-				09F3FE7B27E1E744008B809E /* hovno.js in Resources */,
+				09F3FE7B27E1E744008B809E /* myCustomJavascript.js in Resources */,
 				251BBD082382B2050041738F /* Assets.xcassets in Resources */,
 				251BBD1C2383E9290041738F /* order.js in Resources */,
 			);
@@ -174,7 +174,7 @@
 				251BBD022382B2050041738F /* AppDelegate.swift in Sources */,
 				251BBD042382B2050041738F /* SceneDelegate.swift in Sources */,
 				251BBD1A2382D4210041738F /* JSCommunicationHandler.swift in Sources */,
-				09F3FE7F27E1E7FC008B809E /* HovnoSource.swift in Sources */,
+				09F3FE7F27E1E7FC008B809E /* MyCustomJSSource.swift in Sources */,
 				251BBD182382B4B70041738F /* DataSource.swift in Sources */,
 				251BBD062382B2050041738F /* ContentView.swift in Sources */,
 			);

@@ -8,25 +8,25 @@
 
 import Foundation
 
-class HovnoSource {
+class MyCustomJSSource {
     var jsHandler = JSCommunicationHandler()
     
     init() {
-        if let javascriptUrl = Bundle.main.url(forResource: "hovno", withExtension: "js") {
+        if let javascriptUrl = Bundle.main.url(forResource: "myCustomJavascript", withExtension: "js") {
             jsHandler.loadSourceFile(atUrl: javascriptUrl)
         }
     }
 }
 
-extension HovnoSource {
+extension MyCustomJSSource {
     
-    func getHovno(_ hovno:String) -> String {
+    func getStringFromJs(_ myString:String) -> String {
         
-        if let value = jsHandler.callFunction(functionName: "getHovno", withData: hovno, type:String.self) {
+        if let value = jsHandler.callFunction(functionName: "getStringFromJs", withData: myString, type:String.self) {
             return value.toString()
         }
         else {
-            return "ani " + hovno
+            return "ani " + myString
         }
     }
 }
